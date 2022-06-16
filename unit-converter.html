@@ -1,0 +1,44 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="unit-converter.css" >
+
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="card">
+                <div class="converter-input">
+                    <h2 class="title-el"> Metric/Imperial Online Unit Converter </h2>
+                    <label for="input-el">
+                    <input type="number" class="input-el" id="input-el" min=0 value=0>
+                    </label>
+                </div>
+                <div class="converter-result">
+                    <div class="length">
+                        <h3>Length (Meter/Feet)</h3>
+                        <p><span class="original-value">0</span> meters = <span class="converted-value">0.000</span> feet | 
+                           <span class="original-value">0</span> feet = <span class="converted-value">0.000</span> meters</p>
+                    </div>
+
+                    <div class="volume">
+                        <h3>Volume (Liters/Gallons)</h3>
+                        <p><span class="original-value">0</span> liters = <span class="converted-value">0.000</span> gallons | 
+                            <span class="original-value">0</span> gallons = <span class="converted-value">0.000</span> liters</p>
+                    </div>
+
+                    <div class="mass">
+                        <h3>Mass (Kilograms/Pounds)</h3>
+                        <p><span class="original-value">0</span> kilos = <span class="converted-value">0.000</span> pounds | 
+                            <span class="original-value">0</span> pounds = <span class="converted-value">0.000</span> kilos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer id="footer" role="contentinfo" > Design By Andres R / June 2022 </footer>
+    <script type="text/javascript" src="unit-converter.js"> </script>
+</html>

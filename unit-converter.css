@@ -1,0 +1,110 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom, #ffffff 3%, #669999 98%);
+  color: #4e4e4e;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+
+input {
+  color: #308b8f;
+  background: transparent;
+  border: 0;
+  font-size: 98px;
+  font-weight: 800;
+  line-height: 25px;
+  text-align: center;
+  max-width: 90%;
+}
+
+input:hover,
+input:focus {
+  outline: 3px solid white;
+  border-radius: 0.1em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+h2 {
+  color: #a88429;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 38px;
+}
+
+h3 {
+  color: #1a1921;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.card {
+  background: linear-gradient(to bottom, #ffffcc 23%, #ffcc66 105%);
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 550px;
+  overflow: hidden;
+  width: 550px;
+}
+
+.converter-input {
+  background: linear-gradient(to top, #ffffcc 23%, #ffcc66 105%);
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.converter-result {
+  padding-bottom: 35px;
+  padding-top: 35px;
+}
+
+.length,
+.volume {
+  margin-bottom: 25px;
+}
+
+.title-el {
+  margin-top: 50px;
+}
+
+.input-el {
+  margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 400px), (max-height: 650px) {
+  body {
+    font-size: 10px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  h3 {
+  font-size: 12px;
+  }
+
+  input {
+    font-size: 70px;
+  }
+
+}
